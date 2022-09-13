@@ -13,9 +13,11 @@ import java.util.List;
 
 
 /*le asignamos a esta clase @RestController
-* Con esto conseguimos una comunicación entre nuestra aplicación y algún servicio externo (API RESTFUL)
+* Con esto conseguimos una comunicación entre nuestra aplicación y algún servicio externo
 * Peticiones HTTP a través del puerto asignado
 * también nos permite trabajar con formato JSON y convertirlo a lenguaje java directamente y al revés
+* 
+* Importante que la capa controladora se limite a cumplir su función, controlar/gestionar peticiones y respuestas.
 * */
 
 @RestController
