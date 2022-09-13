@@ -4,10 +4,14 @@ import cat.itacademy.barcelonactiva.GurguiBallve.Gerard.s04.t02.n01.exceptions.F
 import cat.itacademy.barcelonactiva.GurguiBallve.Gerard.s04.t02.n01.exceptions.FruitNotFoundException;
 import cat.itacademy.barcelonactiva.GurguiBallve.Gerard.s04.t02.n01.model.Fruta;
 import org.springframework.http.ResponseEntity;
-
-
 import java.util.List;
 import java.util.Optional;
+
+/*
+* La capa de servicios interviene entre la capa de controlador y la de repositorio.
+* En esta capa desarrollamos la lógica del programa, ya que lo ideal es que la capa controlador
+* se limite solo a controlar/gestionar las peticiones y respuestas.
+* */
 
 public interface IfrutaService {
 
