@@ -5,13 +5,17 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//anotació @RestController ens permet treballar amb serveis de arquitectura RESTful web i format JSON
+/*le asignamos a esta clase @RestController
+* Con esto conseguimos una comunicación entre nuestra aplicación y algún servicio externo (API RESTFUL)
+* Peticiones HTTP a través del puerto asignado
+* también nos permite trabajar con formato JSON y convertirlo a lenguaje java directamente y al revés
+* */
 @RestController
 public class HelloWorldController {
 
 
-    //@GetMapping per establir una ruta executable desde fora del programa
-    //asignem un parametre al metode que será especificat desde fora del programa
+    //@GetMapping para establecer una ruta desde fuera del programa, Get para obtener
+    //@RequestParam indica una petición de parametro para el metodo 
     @GetMapping("/HelloWorld")
     public String saluda(@RequestParam(name = "name") String name) {
 
@@ -29,7 +33,7 @@ public class HelloWorldController {
         return retorna;
     }
 
-    //Asignem una variable a la url, al esciure la ruta li pasarem el nom que vulguem
+    //Asignamos una variable de URL para poder indicarle un valor desde el exterior
     @GetMapping("/HelloWorld2/{name}")
     public String saluda2(@PathVariable String name) {
 
