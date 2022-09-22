@@ -22,7 +22,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/frutas")
-public class FrutaControllerImpl implements IfrutaController {
+public class FrutaController{
 
 
     //Inyectamos el servicio correspondiente a este controlador
