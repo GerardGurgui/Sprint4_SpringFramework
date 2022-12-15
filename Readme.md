@@ -39,4 +39,9 @@ ResponseEntities
 
 https://www.baeldung.com/spring-response-entity
 
+Anotaciones Spring
+
+https://www.baeldung.com/spring-requestparam-vs-pathvariable
+
+https://www.baeldung.com/spring-controller-vs-restcontroller
 
