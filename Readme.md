@@ -2,7 +2,7 @@
 # Sprint 4 - Framework Spring 
 
 ## S4.01 - Introducción a Spring
-## S4.02 - Api REST con Spring Boot
+## S4.02 - Api REST con Spring Boot (H2, MySql y MongoDb)
 
 
 ## Objetivos:
