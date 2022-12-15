@@ -1,4 +1,20 @@
 
+# Sprint 4 - Framework Spring 
+
+## S4.01 - Introducción a Spring
+## S4.02 - Api REST con Spring Boot
+
+
+## Objetivos:
+* Conocer el protocolo HTTP.
+* Probar las peticiones HTTP con Postman a desarrollar.
+* Usar herramientas de gestión de dependencias para estructurar el proyecto (Gradle o Maven).
+* Aprender que es un Microservicio y cómo llevarlo a cabo.
+* Funcionalidades que Spring nos ofrece para desarrollar los microservicios con rapidez: apuntes, separación de capas, configuración rápida, y mucho más.
+
+
+## Recursos de ayuda:
+
 Open Bootcamp curso Spring 
 https://campus.open-bootcamp.com/cursos/14
 
