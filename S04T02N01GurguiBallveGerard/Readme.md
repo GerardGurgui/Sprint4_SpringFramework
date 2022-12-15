@@ -1,5 +1,5 @@
 
-# S4.02 - Api Rest Spring boot 
+# S4.02 - Api Rest Spring boot y BDD H2
 
 ## realizar un CRUD (Create, Read, Update, Delete) con 3 bases de datos diferentes.
 ## Aprenderás a usar correctamente los verbos HTTP y gestionar los códigos de respuesta.
